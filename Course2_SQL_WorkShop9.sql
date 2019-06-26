@@ -7,7 +7,7 @@ SELECT bd.BOOK_ID AS 書本ID,
 	bcla.BOOK_CLASS_ID + '-' + bcla.BOOK_CLASS_NAME AS 書籍類別
 	,blr.KEEPER_ID+'-'+mm.USER_CNAME+'('+mm.USER_ENAME+')' AS 借閱人,
 	bd.BOOK_STATUS + '-' + bcod.CODE_NAME AS 狀態,
-	FORMAT(bd.BOOK_AMOUNT,'d', 'zh-TW')+'元' AS 購買金額
+	REPLACE(CONVERT(NVARCHAR(20),CAST(bd.BOOK_AMOUNT AS Money) ,1),'.00','') + '元' AS 購買金額
 FROM BOOK_LEND_RECORD AS blr
 LEFT JOIN BOOK_DATA AS bd
 	ON blr.BOOK_ID = bd.BOOK_ID
