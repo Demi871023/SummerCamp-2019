@@ -34,7 +34,9 @@ $(function(){
                         BookName: { type: "string" },
                         BookCategory: { type: "string" },
                         BookAuthor: { type: "string" },
-                        BookBoughtDate: { type: "string" }
+                        BookBoughtDate: { type: "string" },
+                        BookPublisher: {type: "string"}
+
                     }
                 }
             },
@@ -50,11 +52,12 @@ $(function(){
         },
         
         columns: [
-            { field: "BookId", title: "書籍編號",width:"10%"},
-            { field: "BookName", title: "書籍名稱", width: "50%" },
+            { field: "BookId", title: "書籍編號",width:"7%"},
+            { field: "BookName", title: "書籍名稱", width: "45%" },
             { field: "BookCategory", title: "書籍種類", width: "10%" },
             { field: "BookAuthor", title: "作者", width: "15%" },
-            { field: "BookBoughtDate", title: "購買日期", width: "15%" },
+            { field: "BookBoughtDate", title: "購買日期", width: "13%" },
+            { field: "BookPublisher", title: "出版社", width: "10%"},
             { command: { text: "刪除", click: deleteBook }, title: " ", width: "120px" }
         ]
     });
@@ -77,6 +80,20 @@ $(function(){
             ]
         });
     });
+
+
+    /*myWindow.kendoWindow({
+        width: "600px",
+        title: "Create a book",
+        visible: false,
+        actions: [
+            "Pin",
+            "Minimize",
+            "Maximize",
+            "Close"
+        ],
+        close: onClose
+    }); */ 
 
 })
 
@@ -119,7 +136,50 @@ function deleteBook(options){
 
 
 $(".addbook").click(function(){
-    var b_category = $("#book_category").data("kendoDropDownList").text()
+
+    if (validator.validate()){
+        /*status.text("Hooray! Your tickets has been booked!")
+            .removeClass("invalid")
+            .addClass("valid");*/
+            var b_category = $("#book_category").data("kendoDropDownList").text()
+            var b_name = $("#book_name").val();
+            var b_author = $("#book_author").val();
+            var b_data = $("#bought_datepicker").val();
+            var b_publisher = $("#book_publisher").val();
+        
+            
+            var localData = JSON.parse(localStorage["bookData"]);
+            var b_id = localData[localData.length - 1].BookId + 1;
+        
+            var datasource = JSON.parse(localStorage.getItem("bookData"));
+            datasource.push({
+                BookId: b_id,
+                BookCategory: b_category,
+                BookName: b_name,
+                BookAuthor: b_author,
+                BookBoughtDate: b_data,
+                BookPublisher: b_publisher
+            });
+        
+            //grid.dataSource.add();
+        
+            localStorage.setItem("bookData",JSON.stringify(datasource));
+        
+            var grid = $("#book_grid").data("kendoGrid");
+        
+            $("#window").data("kendoWindow").close();
+            location.reload();
+
+    }
+    else {
+        $(".status").text("Oops! There is invalid data in the form.")
+            .removeClass("valid")
+            .addClass("invalid");
+    }
+
+
+
+   /* var b_category = $("#book_category").data("kendoDropDownList").text()
     var b_name = $("#book_name").val();
     var b_author = $("#book_author").val();
     var b_data = $("#bought_datepicker").val();
@@ -146,9 +206,45 @@ $(".addbook").click(function(){
     var grid = $("#book_grid").data("kendoGrid");
 
     $("#window").data("kendoWindow").close();
-    location.reload();
+    location.reload();*/
    
 
 });
 
+
+$(document).ready(function(){
+    
+    var myWindow = $("#window"),
+    undo = $("#undo");
+
+    undo.click(function() {
+        myWindow.data("kendoWindow").center().open();
+        //undo.fadeOut();
+    });
+
+    function onClose() {
+         undo.fadeIn();
+    }
+
+    myWindow.kendoWindow({
+        width: "600px",
+        title: "Create a book",
+        visible: false,
+        actions: [
+            "Pin",
+            "Minimize",
+            "Maximize",
+            "Close"
+        ],
+        close: onClose
+    });     
+});
+
+/*$("#undo").click(function(){
+    myWindow.data("kendoWindow").center().open();
+})*/
+
+
+var validator = $("#CreateBookForm").kendoValidator().data("kendoValidator"),
+    status = $(".status");
 

@@ -19,9 +19,10 @@
     <main>
 
 
-        <div id="undo" style="display:block; margin-bottom: 10px; height: 40px; width: 150px;" class="k-button k-primary btn-add-book">新增書籍</div>
+        <div id="undo" style="display:block; margin-bottom: 10px; height: 40px; width: 150px; margin-left:45% " class="k-button k-primary btn-add-book">新增書籍</div>
         
         <div id="window">
+            <form id="CreateBookForm">
                 <ul class="fieldlist">
                     <li>
                         <img class="book-image" src="image/database.jpg" alt="">
@@ -33,11 +34,11 @@
                     </li>
                     <li>
                         <label>書名</label>
-                        <input id="book_name" type="text" class="k-textbox" style="width: 100%;" />
+                        <input id="book_name" type="text" class="k-textbox" name="bookname" required validationMessage="No book name"style="width: 100%;" />
                     </li>
                     <li>
                         <label>作者</label>
-                        <input id="book_author" type="text" class="k-textbox" style="width: 100%;" />
+                        <input id="book_author" type="text" class="k-textbox" name="bookauther" required validationMessage="No book author" style="width: 100%;" />
                     </li>
                     <li>
                         <label>購買日期</label>
@@ -45,12 +46,15 @@
                     </li>
                     <li>
                         <label>出版社</label>
-                        <input id="book_publisher" type="text" class="k-textbox" style="width: 100%;" />
+                        <input id="book_publisher" type="text" class="k-textbox" name="bookpublisher" required validationMessage="No book publisher" style="width: 100%;" />
                     </li>
                     <li class="uk-text-right">
                         <button class="k-button k-primary btn-add-book addbook">新增</button>
                     </li>
+                    <li class="status">
+                    </li>
                 </ul>
+            </form>
         </div>
 
         <div class="uk-container align-center">
@@ -69,34 +73,4 @@
 <script src="./js/kendo.all.min.js"></script>
 <script src="./js/uikit.min.js"></script>
 <script src="./js/script.js"></script>
-
-<script>
-        $(document).ready(function(){
-    
-            var myWindow = $("#window"),
-            undo = $("#undo");
-    
-            undo.click(function() {
-                            myWindow.data("kendoWindow").center().open();
-                            //undo.fadeOut();
-                        });
-    
-                        function onClose() {
-                            undo.fadeIn();
-                        }
-    
-                        myWindow.kendoWindow({
-                            width: "600px",
-                            title: "About Alvar Aalto",
-                            visible: false,
-                            actions: [
-                                "Pin",
-                                "Minimize",
-                                "Maximize",
-                                "Close"
-                            ],
-                            close: onClose
-                        });     
-        });
-</script>
 </html>
