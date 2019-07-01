@@ -1,5 +1,8 @@
 
 var bookDataFromLocalStorage = [];
+var validator; //kendo validator
+var status; // valid or invalid
+
 
 $(function(){
     loadBookData();
@@ -36,7 +39,6 @@ $(function(){
                         BookAuthor: { type: "string" },
                         BookBoughtDate: { type: "string" },
                         BookPublisher: {type: "string"}
-
                     }
                 }
             },
@@ -50,7 +52,6 @@ $(function(){
             input: true,
             numeric: false
         },
-        
         columns: [
             { field: "BookId", title: "書籍編號",width:"7%"},
             { field: "BookName", title: "書籍名稱", width: "45%" },
@@ -81,8 +82,7 @@ $(function(){
         });
     });
 
-
-    /*myWindow.kendoWindow({
+    $("#window").kendoWindow({
         width: "600px",
         title: "Create a book",
         visible: false,
@@ -92,11 +92,10 @@ $(function(){
             "Maximize",
             "Close"
         ],
-        close: onClose
-    }); */ 
-
+    });    
 })
 
+//local storage初始化
 function loadBookData(){
     bookDataFromLocalStorage = JSON.parse(localStorage.getItem("bookData"));
     if(bookDataFromLocalStorage == null){
@@ -106,10 +105,8 @@ function loadBookData(){
 }
 
 function onChange(){
-
     var value = $("#book_category").val();
     $(".book-image").attr("src", "image/" + value + ".jpg");
-    
 }
 
 function deleteBook(options){
@@ -129,122 +126,43 @@ function deleteBook(options){
             break;
         }
     }
-
     localStorage["bookData"] = JSON.stringify(localData);
 };
-
-
 
 $(".addbook").click(function(){
 
     if (validator.validate()){
-        /*status.text("Hooray! Your tickets has been booked!")
-            .removeClass("invalid")
-            .addClass("valid");*/
-            var b_category = $("#book_category").data("kendoDropDownList").text()
-            var b_name = $("#book_name").val();
-            var b_author = $("#book_author").val();
-            var b_data = $("#bought_datepicker").val();
-            var b_publisher = $("#book_publisher").val();
-        
-            
-            var localData = JSON.parse(localStorage["bookData"]);
-            var b_id = localData[localData.length - 1].BookId + 1;
-        
-            var datasource = JSON.parse(localStorage.getItem("bookData"));
-            datasource.push({
-                BookId: b_id,
-                BookCategory: b_category,
-                BookName: b_name,
-                BookAuthor: b_author,
-                BookBoughtDate: b_data,
-                BookPublisher: b_publisher
-            });
-        
-            //grid.dataSource.add();
-        
-            localStorage.setItem("bookData",JSON.stringify(datasource));
-        
-            var grid = $("#book_grid").data("kendoGrid");
-        
-            $("#window").data("kendoWindow").close();
-            location.reload();
+        var localData = JSON.parse(localStorage["bookData"]);
 
+        var new_book = {};
+        new_book.BookId = localData[localData.length - 1].BookId + 1;
+        new_book.BookCategory = $("#book_category").data("kendoDropDownList").text();
+        new_book.BookName = $("#book_name").val();
+        new_book.BookAuthor = $("#book_author").val();
+        new_book.BookBoughtDate = $("#bought_datepicker").val();
+        new_book.BookPublisher = $("#book_publisher").val();
+        
+        var datasource = JSON.parse(localStorage.getItem("bookData"));//將localStorage的資料由 JSON 格式字串轉回原本的資料內容及型別。
+        datasource.push(new_book);
+        var grid = $("#book_grid").data("kendoGrid");
+        grid.dataSource.add(new_book);
+        
+        localStorage.setItem("bookData",JSON.stringify(datasource));//將資料轉為 JSON 格式的字串後塞回localStorage
+        $("#window").data("kendoWindow").close();
+        //location.reload();
     }
     else {
         $(".status").text("Oops! There is invalid data in the form.")
-            .removeClass("valid")
-            .addClass("invalid");
+                    .removeClass("valid")
+                    .addClass("invalid");
     }
-
-
-
-   /* var b_category = $("#book_category").data("kendoDropDownList").text()
-    var b_name = $("#book_name").val();
-    var b_author = $("#book_author").val();
-    var b_data = $("#bought_datepicker").val();
-    var b_publisher = $("#book_publisher").val();
-
-    
-    var localData = JSON.parse(localStorage["bookData"]);
-    var b_id = localData[localData.length - 1].BookId + 1;
-
-    var datasource = JSON.parse(localStorage.getItem("bookData"));
-    datasource.push({
-        BookId: b_id,
-        BookCategory: b_category,
-        BookName: b_name,
-        BookAuthor: b_author,
-        BookBoughtDate: b_data,
-        BookPublisher: b_publisher
-    });
-
-    //grid.dataSource.add();
-
-    localStorage.setItem("bookData",JSON.stringify(datasource));
-
-    var grid = $("#book_grid").data("kendoGrid");
-
-    $("#window").data("kendoWindow").close();
-    location.reload();*/
-   
-
 });
 
 
-$(document).ready(function(){
-    
-    var myWindow = $("#window"),
-    undo = $("#undo");
-
-    undo.click(function() {
-        myWindow.data("kendoWindow").center().open();
-        //undo.fadeOut();
-    });
-
-    function onClose() {
-         undo.fadeIn();
-    }
-
-    myWindow.kendoWindow({
-        width: "600px",
-        title: "Create a book",
-        visible: false,
-        actions: [
-            "Pin",
-            "Minimize",
-            "Maximize",
-            "Close"
-        ],
-        close: onClose
-    });     
+$("#create").click(function() {
+    $("#window").data("kendoWindow").center().open();
 });
 
-/*$("#undo").click(function(){
-    myWindow.data("kendoWindow").center().open();
-})*/
-
-
-var validator = $("#CreateBookForm").kendoValidator().data("kendoValidator"),
-    status = $(".status");
+validator = $("#CreateBookForm").kendoValidator().data("kendoValidator");
+status = $(".status");
 

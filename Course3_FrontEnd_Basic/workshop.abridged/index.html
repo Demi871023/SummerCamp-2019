@@ -19,9 +19,9 @@
     <main>
 
 
-        <div id="undo" style="display:block; margin-bottom: 10px; height: 40px; width: 150px; margin-left:45% " class="k-button k-primary btn-add-book">新增書籍</div>
+        <div id="create" style="display:block; margin-bottom: 10px; height: 40px; width: 150px; margin-left:45% " class="k-button k-primary btn-add-book">新增書籍</div>
         
-        <div id="window">
+        <div id="window" style="display: none">
             <form id="CreateBookForm">
                 <ul class="fieldlist">
                     <li>
@@ -33,11 +33,11 @@
                         </select>
                     </li>
                     <li>
-                        <label>書名</label>
+                        <label>書名 *</label>
                         <input id="book_name" type="text" class="k-textbox" name="bookname" required validationMessage="No book name"style="width: 100%;" />
                     </li>
                     <li>
-                        <label>作者</label>
+                        <label>作者 *</label>
                         <input id="book_author" type="text" class="k-textbox" name="bookauther" required validationMessage="No book author" style="width: 100%;" />
                     </li>
                     <li>
@@ -45,7 +45,7 @@
                         <input id="bought_datepicker" value="10/10/2011" title="datepicker" style="width: 100%" />
                     </li>
                     <li>
-                        <label>出版社</label>
+                        <label>出版社 *</label>
                         <input id="book_publisher" type="text" class="k-textbox" name="bookpublisher" required validationMessage="No book publisher" style="width: 100%;" />
                     </li>
                     <li class="uk-text-right">
