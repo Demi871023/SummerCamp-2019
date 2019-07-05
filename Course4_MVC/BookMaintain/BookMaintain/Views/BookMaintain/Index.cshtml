@@ -1,0 +1,120 @@
+﻿@model BookMaintain.Models.BookSearchArg
+
+@Model 
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<h2>圖書維護</h2>
+
+
+@using (Html.BeginForm("Index", "BookMaintain", FormMethod.Post, new { id = "Form1" }))
+{
+
+    <div class="form-horizontal">
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Book_Name, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.Book_Name, new { @class = "form-control" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Book_Class_Id, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+               @Html.DropDownListFor(model => model.Book_Class_Id, (List<SelectListItem>)ViewBag.Book_Class, "請選擇", new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.Keeper_Id, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.Keeper_Id, (List<SelectListItem>)ViewBag.Keeper_Name, "請選擇", new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.Book_Status_Id, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.Book_Status_Id, (List<SelectListItem>)ViewBag.Book_Status, "請選擇", new { @class = "form-control" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-2"></div>
+            <div class="col-md-10">
+					<input type="submit" class="btn btn-default" value="查詢" />
+					<button type="button" class="btn btn-default">@Html.ActionLink("清除", "Index")</button>
+					<button type="button" class="btn btn-default">@Html.ActionLink("新增", "InsertBook")</button>
+            </div>
+        </div>
+    </div>
+
+    
+    if(ViewBag.Book_Search_Result != null)
+    {
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th style="text-align:center;width:15%;">圖書類別</th>
+                    <th style="text-align:center;width:45%;">書名</th>
+                    <th style="text-align:center;width:10%;">購書日期</th>
+                    <th style="text-align:center;width:10%;">借閱狀態</th>
+                    <th style="text-align:center;width:5%;">借閱人</th>
+                    <td style="text-align:center;width:15%;" colspan="3"></td>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach(var item in (List<BookMaintain.Models.Books>)ViewBag.Book_Search_Result)
+                {
+                    <tr id="@item.b_BOOK_ID">
+                        <td style="text-align:left;">@item.b_CLASS_NAME</td>
+                        <td style="text-align:left;">@item.b_BOOK_NAME</td>
+                        <td style="text-align:center;">@item.b_BOUGHT_DATE </td>
+                        <td style="text-align:center;">@item.b_STATUS</td>
+                        <td style="text-align:center;">@item.b_KEEPER</td>
+						<td>
+							<form></form>
+							@using (Html.BeginForm("BookRecord", "BookMaintain", FormMethod.Post, new { id = "BookRecord" }))
+							{
+								<input type="hidden" id="BookId" name="BookId" value="@item.b_BOOK_ID" />
+								<button class="btn btn-default" type="submit">借閱紀錄</button>
+							}
+						</td>
+						<td>
+							<button type="button" class="btnEdit btn btn-default">修改</button>
+							<input class="hidBookId" type="hidden" />
+						</td>
+						<td>
+							<button type="button" class="btnDelete btn btn-danger">刪除</button>
+							<input class="hidBookId" type="hidden" value='@item.b_BOOK_ID' />
+						</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+}
+
+<script type="text/javascript">
+    $(document).ready(function () {
+       
+        $('.btnDelete').click(function (e) {
+            e.preventDefault();
+            if (confirm("確定要刪除該本書?")) {
+                var tr = $(this).closest('tr')
+                $.ajax({
+                    type: "POST",
+                    url: "/BookMaintain/DeleteBook",
+                    data: "bookid=" + $(this).next().val(),
+                    dataType: "json",
+                    success: function (response) {
+                        $(tr).remove();
+                    }, error: function (error) {
+                        alert("系統發生錯誤");
+                    }
+                });
+            }
+        })
+    });
+</script>

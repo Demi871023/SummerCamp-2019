@@ -1,0 +1,79 @@
+﻿@model BookMaintain.Models.Books
+@{
+    ViewBag.Title = "EditBook";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<h2>修改書本資料</h2>
+
+
+@using (Html.BeginForm("EditBook", "BookMaintain", FormMethod.Post, new { id = "EditBook" }))
+{
+    <div class="form-horizontal">
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.b_BOOK_NAME, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.b_BOOK_NAME, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.b_BOOK_NAME, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.b_AUTHOR, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.b_AUTHOR, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.b_AUTHOR, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.b_PUBLISHER, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.b_PUBLISHER, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.b_PUBLISHER, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.b_INSTRODUCTION, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.b_INSTRODUCTION, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.b_INSTRODUCTION, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.b_BOUGHT_DATE, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.b_BOUGHT_DATE, new { @type = "Date", @style = "text-align:left", @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.b_BOUGHT_DATE, "", new { @type = "Date", @style = "text-align:left", @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.b_STATUS_ID, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.b_STATUS_ID, (List<SelectListItem>)ViewBag.Book_Status, "請選擇", new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.b_STATUS_ID, "", new { @type = "Date", @style = "text-align:left", @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.b_CLASS_NAME, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.b_CLASS_NAME, (List<SelectListItem>)ViewBag.b_CLASS_NAME, "請選擇", new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.b_CLASS_NAME)
+
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="存檔" class="btn btn-success" />
+            </div>
+        </div>
+
+
+    </div>
+}
+
