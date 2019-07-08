@@ -1,0 +1,198 @@
+﻿
+@{
+    ViewBag.Title = "EditBook";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>修改圖書</h2>
+
+<form id="CreateBookForm">
+	<table class="table">
+		<tr>
+			<td style="text-align:right;"><span style="color:red">*</span><label for="edit_book_name">書名</label></td>
+			<td><input id="edit_book_name" name="BookName" type="text" required validationMessage="書名必填" /></td>
+		</tr>
+		<tr>
+			<td style="text-align:right;"><span style="color:red">*</span><label for="edit_book_author">作者</label></td>
+			<td><input id="edit_book_author" name="BookAuthor" type="text" required validationMessage="作者必填" /></td>
+		</tr>
+		<tr>
+			<td style="text-align:right;"><span style="color:red">*</span><label for="edit_book_publisher">出版商</label></td>
+			<td><input id="edit_book_publisher" name="BookPublisher" type="text" required validationMessage="出版商必填" /></td>
+		</tr>
+		<tr>
+			<td style="text-align:right;"><span style="color:red">*</span><label for="edit_book_introduction">內容簡介</label></td>
+			<td><textarea id="edit_book_introduction" name="BookIntorduction" required validationMessage="內容簡介必填"></textarea></td>
+		</tr>
+		<tr>
+			<td style="text-align:right;"><span style="color:red">*</span><label for="edit_book_buy_date">購買日期</label></td>
+			<td><input id="edit_book_buy_date" name="BookBuyDate" type="text" required validationMessage="購買日期必填" /></td>
+		</tr>
+		<tr>
+			<td style="text-align:right;"><span style="color:red">*</span><label for="edit_book_class_name">圖書類別</label></td>
+			<td><select id="edit_book_class_name" nae="BookClassName" required validationMessage="圖書類別必選擇"></select></td>
+		</tr>
+		<tr>
+			<td style="text-align:right;"><span style="color:red">*</span><label for="edit_book_status">借閱狀態</label></td>
+			<td><select id="edit_book_status" nae="BookStatus" required validationMessage="借閱狀態必選擇"></select></td>
+		</tr>
+		<tr id="book_keeper_tr">
+			<td style="text-align:right;"><label for="edit_book_keeper">借閱人</label></td>
+			<td><select id="edit_book_keeper" name="BookKeeper" ></select></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>
+				<button id="back" class="btn btn-default" type="button" onclick="location.href = '/Book/Index'">返回</button>
+				<button id="save" class="btn btn-success" type="button">存檔</button>
+				<button id="delete" class="btn btn-danger" type="button">刪除</button>
+			</td>
+		</tr>
+	</table>
+</form>
+
+<input id="hid_book_id" type="hidden" value="@ViewData["bookid"]" />
+
+
+
+<script>
+    var check;
+	$(document).ready(function () {
+		$("#edit_book_buy_date").kendoDatePicker({
+			value: new Date(),
+			format: "yyyy/MM/dd",
+			dateInput: true
+		});
+
+		$("#edit_book_class_name").kendoDropDownList({
+			optionLabel: "請選擇",
+			dataTextField: "Text",
+			dataValueField: "Value",
+			dataSource: {
+				transport: {
+					read: {
+						url: "/Book/GetBookClassDropDownListData",
+						type: "post",
+						dataType: "json"
+					}
+				}
+			},
+			index: 0
+		});
+
+		$("#edit_book_status").kendoDropDownList({
+			optionLabel: "請選擇",
+			dataTextField: "Text",
+			dataValueField: "Value",
+			dataSource: {
+				transport: {
+					read: {
+						url: "/Book/GetBookStatusDropDownListData",
+						type: "post",
+						dataType: "json"
+					}
+				}
+            },
+			index: 0
+		});
+
+		$("#edit_book_keeper").kendoDropDownList({
+			optionLabel: "請選擇",
+			dataTextField: "Text",
+			dataValueField: "Value",
+			dataSource: {
+				transport: {
+					read: {
+						url: "/Book/GetLendUserDropDownListData",
+						type: "post",
+						dataType: "json"
+					}
+				}
+			},
+			index: 0
+		});
+		$.ajax({
+            url: "/Book/GetOriginBookData",
+			type: "post",
+			dataType: "json",
+            data: { "bookid": $('#hid_book_id').val() },
+            //回傳的res是array
+            success: function (res) {
+                console.log(res);
+                $("#edit_book_name").val(res[0].BookName);
+                $("#edit_book_author").val(res[0].BookAuthor);
+                $("#edit_book_publisher").val(res[0].BookPublisher);
+                $("#edit_book_introduction").val(res[0].BookNote);
+                $("#edit_book_buy_date").val(res[0].BookBoughtDate);
+                $('#edit_book_class_name').data('kendoDropDownList').value(res[0].BookClassName);
+                $('#edit_book_status').data('kendoDropDownList').value(res[0].CodeName);
+                $('#edit_book_keeper').data('kendoDropDownList').value(res[0].UserName);
+                //console.log(res[0].BookName);
+
+                check = res[0].CodeName;
+                //console.log(check);
+                //A 可以借出，目前沒有借閱人
+                //U 不可借出，不存在借閱人
+                if (check == "A" || check == "U" || check == "") {
+                    $('#book_keeper_tr').hide();
+                    $('#edit_book_keeper').val("");
+                }
+                else {
+                    $('#edit_book_keeper').attr("required", "true");
+                }
+                
+			}
+		});
+    });
+
+
+    $('#BookStatus').change(function () {
+        var tmp = $('#edit_book_status').val();
+        if (tmp == "A" || tmp == "U" || tmp == "") {
+            $('#keeper-tr').hide();
+            $('#KeeperId').val("");
+            $('#Keeper').removeAttr("required");
+        }
+        else {
+            $('#Keeper').attr("required", "true");
+            $('#keeper-tr').show();
+        }
+    });
+
+
+
+    /*$("#edit_book_status").change(function () {
+        check = $("#edit_book_status").val();
+        if (check == "A" || check == "U" || check == "") {
+            //$("#edit_book_keeper")
+            /*$("#edit_book_keeper").kendoDropDownList({
+                enable: false
+            });
+            $('#edit_book_keeper').data('kendoDropDownList').value("");
+
+        }
+        else if (check == "B" || check == "C")
+        {
+            $("#edit_book_keeper").kendoDropDownList({
+                enable: true
+            });
+        }
+            
+    });*/
+
+
+    $("#save").click(function () {
+        var bookstatus = $("#edit_book_status").data('kendoDropDownList').val();
+        var bookkeeper = $("edit_book_keeper").data('kendoDropDownList').val();
+        if (bookstatus == 'A' || bookstatus == 'U')
+        {
+            $("#edit_book_keeper").attr("disabled", true);
+        }
+
+    });
+
+    $("#delete").click(function(){
+
+    });
+
+</script>
