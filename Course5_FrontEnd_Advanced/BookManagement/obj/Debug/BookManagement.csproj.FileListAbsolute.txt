@@ -1,0 +1,446 @@
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\BookManagement.dll.config
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\BookManagement.dll
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\BookManagement.pdb
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\roslyn\csc.exe
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\roslyn\csc.exe.config
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\roslyn\csc.rsp
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\roslyn\csi.exe
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\roslyn\csi.exe.config
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\roslyn\csi.rsp
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\roslyn\System.AppContext.dll
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\roslyn\System.Console.dll
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\roslyn\System.IO.Compression.dll
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\roslyn\System.IO.Pipes.dll
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\roslyn\System.Security.Claims.dll
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\roslyn\System.ValueTuple.dll
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\roslyn\System.Xml.XPath.dll
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\roslyn\vbc.exe
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\roslyn\vbc.exe.config
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\roslyn\vbc.rsp
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\roslyn\VBCSCompiler.exe
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\System.Web.Helpers.dll
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\System.Web.Mvc.dll
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\System.Web.Razor.dll
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\System.Web.Webpages.Deployment.dll
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\System.Web.Webpages.dll
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\System.Web.Webpages.Razor.dll
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\System.Web.Razor.xml
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\System.Web.Webpages.xml
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\System.Web.Webpages.Deployment.xml
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\System.Web.Webpages.Razor.xml
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\System.Web.Helpers.xml
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\System.Web.Mvc.xml
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\zh-Hant\System.Web.Razor.resources.dll
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\zh-Hant\System.Web.Webpages.resources.dll
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\zh-Hant\System.Web.Webpages.Deployment.resources.dll
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\zh-Hant\System.Web.Webpages.Razor.resources.dll
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\zh-Hant\System.Web.Helpers.resources.dll
+C:\Users\sean8\source\repos\BookManagement\BookManagement\bin\zh-Hant\System.Web.Mvc.resources.dll
+C:\Users\sean8\source\repos\BookManagement\BookManagement\obj\Debug\BookManagement.csprojAssemblyReference.cache
+C:\Users\sean8\source\repos\BookManagement\BookManagement\obj\Debug\BookManagement.csproj.CoreCompileInputs.cache
+C:\Users\sean8\source\repos\BookManagement\BookManagement\obj\Debug\BookManagement.csproj.CopyComplete
+C:\Users\sean8\source\repos\BookManagement\BookManagement\obj\Debug\BookManagement.dll
+C:\Users\sean8\source\repos\BookManagement\BookManagement\obj\Debug\BookManagement.pdb
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\BookManagement.dll.config
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\BookManagement.dll
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\BookManagement.pdb
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\csc.exe
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\csc.exe.config
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\csc.rsp
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\csi.exe
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\csi.exe.config
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\csi.rsp
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\System.AppContext.dll
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\System.Console.dll
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\System.IO.Compression.dll
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\System.IO.Pipes.dll
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\System.Security.Claims.dll
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\System.ValueTuple.dll
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\System.Xml.XPath.dll
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\vbc.exe
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\vbc.exe.config
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\vbc.rsp
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\VBCSCompiler.exe
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\System.Web.Helpers.dll
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\System.Web.Mvc.dll
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\System.Web.Razor.dll
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\System.Web.Webpages.Deployment.dll
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\System.Web.Webpages.dll
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\System.Web.Webpages.Razor.dll
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\System.Web.Razor.xml
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\System.Web.Webpages.xml
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\System.Web.Webpages.Deployment.xml
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\System.Web.Webpages.Razor.xml
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\System.Web.Helpers.xml
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\System.Web.Mvc.xml
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\zh-Hant\System.Web.Razor.resources.dll
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\zh-Hant\System.Web.Webpages.resources.dll
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\zh-Hant\System.Web.Webpages.Deployment.resources.dll
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\zh-Hant\System.Web.Webpages.Razor.resources.dll
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\zh-Hant\System.Web.Helpers.resources.dll
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\bin\zh-Hant\System.Web.Mvc.resources.dll
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\obj\Debug\BookManagement.csprojAssemblyReference.cache
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\obj\Debug\BookManagement.csproj.CoreCompileInputs.cache
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\obj\Debug\BookManagement.csproj.CopyComplete
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\obj\Debug\BookManagement.dll
+C:\Users\sean8\Documents\tiffany\Course4_tiffany_chiang\BookManagement\obj\Debug\BookManagement.pdb
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\BookManagement.dll.config
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\BookManagement.dll
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\BookManagement.pdb
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\csc.exe
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\csc.exe.config
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\csc.rsp
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\csi.exe
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\csi.exe.config
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\csi.rsp
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\System.AppContext.dll
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\System.Console.dll
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\System.IO.Compression.dll
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\System.IO.Pipes.dll
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\System.Security.Claims.dll
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\System.ValueTuple.dll
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\System.Xml.XPath.dll
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\vbc.exe
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\vbc.exe.config
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\vbc.rsp
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\VBCSCompiler.exe
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\System.Web.Helpers.dll
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\System.Web.Mvc.dll
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\System.Web.Razor.dll
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\System.Web.Webpages.Deployment.dll
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\System.Web.Webpages.dll
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\System.Web.Webpages.Razor.dll
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\System.Web.Razor.xml
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\System.Web.Webpages.xml
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\System.Web.Webpages.Deployment.xml
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\System.Web.Webpages.Razor.xml
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\System.Web.Helpers.xml
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\System.Web.Mvc.xml
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\zh-Hant\System.Web.Razor.resources.dll
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\zh-Hant\System.Web.Webpages.resources.dll
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\zh-Hant\System.Web.Webpages.Deployment.resources.dll
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\zh-Hant\System.Web.Webpages.Razor.resources.dll
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\zh-Hant\System.Web.Helpers.resources.dll
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\bin\zh-Hant\System.Web.Mvc.resources.dll
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\obj\Debug\BookManagement.csprojAssemblyReference.cache
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\obj\Debug\BookManagement.csproj.CoreCompileInputs.cache
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\obj\Debug\BookManagement.csproj.CopyComplete
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\obj\Debug\BookManagement.dll
+C:\Users\tiffa\OneDrive\文件\tiffany\Course4_tiffany_chiang\BookManagement\obj\Debug\BookManagement.pdb
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\BookManagement.dll.config
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\BookManagement.dll
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\BookManagement.pdb
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\roslyn\csc.exe
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\roslyn\csc.exe.config
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\roslyn\csc.rsp
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\roslyn\csi.exe
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\roslyn\csi.exe.config
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\roslyn\csi.rsp
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\roslyn\System.AppContext.dll
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\roslyn\System.Console.dll
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\roslyn\System.IO.Compression.dll
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\roslyn\System.IO.Pipes.dll
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\roslyn\System.Security.Claims.dll
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\roslyn\System.ValueTuple.dll
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\roslyn\System.Xml.XPath.dll
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\roslyn\vbc.exe
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\roslyn\vbc.exe.config
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\roslyn\vbc.rsp
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\roslyn\VBCSCompiler.exe
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\System.Web.Helpers.dll
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\System.Web.Mvc.dll
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\System.Web.Razor.dll
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\System.Web.Webpages.Deployment.dll
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\System.Web.Webpages.dll
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\System.Web.Webpages.Razor.dll
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\System.Web.Razor.xml
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\System.Web.Webpages.xml
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\System.Web.Webpages.Deployment.xml
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\System.Web.Webpages.Razor.xml
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\System.Web.Helpers.xml
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\System.Web.Mvc.xml
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\zh-Hant\System.Web.Razor.resources.dll
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\zh-Hant\System.Web.Webpages.resources.dll
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\zh-Hant\System.Web.Webpages.Deployment.resources.dll
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\zh-Hant\System.Web.Webpages.Razor.resources.dll
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\zh-Hant\System.Web.Helpers.resources.dll
+C:\Users\NT2018\Desktop\MVC\BookManagement\bin\zh-Hant\System.Web.Mvc.resources.dll
+C:\Users\NT2018\Desktop\MVC\BookManagement\obj\Debug\BookManagement.dll
+C:\Users\NT2018\Desktop\MVC\BookManagement\obj\Debug\BookManagement.pdb
+C:\Users\NT2018\Desktop\MVC\BookManagement\obj\Debug\BookManagement.csprojResolveAssemblyReference.cache
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\BookManagement.dll.config
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\BookManagement.dll
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\BookManagement.pdb
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\csc.exe
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\csc.exe.config
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\csc.rsp
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\csi.exe
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\csi.exe.config
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\csi.rsp
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\Microsoft.Managed.Core.targets
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\System.AppContext.dll
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\System.Collections.Immutable.dll
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\System.Console.dll
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\System.IO.Compression.dll
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\System.IO.FileSystem.dll
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\System.IO.Pipes.dll
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\System.Reflection.Metadata.dll
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\System.Security.AccessControl.dll
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\System.Security.Claims.dll
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\System.Security.Principal.Windows.dll
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\System.ValueTuple.dll
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\System.Xml.XmlDocument.dll
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\System.Xml.XPath.dll
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\vbc.exe
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\vbc.exe.config
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\vbc.rsp
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\VBCSCompiler.exe
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\VBCSCompiler.exe.config
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\Microsoft.Web.Infrastructure.dll
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\System.Web.Helpers.dll
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\System.Web.Mvc.dll
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\System.Web.Razor.dll
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\System.Web.Webpages.Deployment.dll
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\System.Web.Webpages.dll
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\System.Web.Webpages.Razor.dll
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\System.Web.Razor.xml
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\System.Web.Webpages.xml
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\System.Web.Webpages.Deployment.xml
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\System.Web.Webpages.Razor.xml
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\System.Web.Helpers.xml
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\System.Web.Mvc.xml
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\zh-Hant\System.Web.Razor.resources.dll
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\zh-Hant\System.Web.Webpages.resources.dll
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\zh-Hant\System.Web.Webpages.Deployment.resources.dll
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\zh-Hant\System.Web.Webpages.Razor.resources.dll
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\zh-Hant\System.Web.Helpers.resources.dll
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\zh-Hant\System.Web.Mvc.resources.dll
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\obj\Debug\BookManagement.csprojAssemblyReference.cache
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\obj\Debug\BookManagement.csproj.CoreCompileInputs.cache
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\obj\Debug\BookManagement.csproj.CopyComplete
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\obj\Debug\BookManagement.dll
+F:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\obj\Debug\BookManagement.pdb
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\BookManagement.dll.config
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\BookManagement.dll
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\BookManagement.pdb
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\csc.exe
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\csc.exe.config
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\csc.rsp
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\csi.exe
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\csi.exe.config
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\csi.rsp
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\Microsoft.Managed.Core.targets
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\System.AppContext.dll
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\System.Collections.Immutable.dll
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\System.Console.dll
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\System.Diagnostics.StackTrace.dll
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\System.IO.Compression.dll
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\System.IO.FileSystem.dll
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\System.IO.FileSystem.Primitives.dll
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\System.IO.Pipes.AccessControl.dll
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\System.IO.Pipes.dll
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\System.Reflection.Metadata.dll
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\System.Security.AccessControl.dll
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\System.Security.Claims.dll
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\System.Security.Cryptography.Encoding.dll
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\System.Security.Cryptography.Primitives.dll
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\System.Security.Principal.Windows.dll
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\System.Text.Encoding.CodePages.dll
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\System.ValueTuple.dll
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\System.Xml.ReaderWriter.dll
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\System.Xml.XmlDocument.dll
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\System.Xml.XPath.dll
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\System.Xml.XPath.XDocument.dll
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\vbc.exe
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\vbc.exe.config
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\vbc.rsp
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\VBCSCompiler.exe
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\roslyn\VBCSCompiler.exe.config
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\Microsoft.Web.Infrastructure.dll
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\System.Web.Helpers.dll
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\System.Web.Mvc.dll
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\System.Web.Razor.dll
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\System.Web.Webpages.Deployment.dll
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\System.Web.Webpages.dll
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\System.Web.Webpages.Razor.dll
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\System.Web.Razor.xml
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\System.Web.Webpages.xml
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\System.Web.Webpages.Deployment.xml
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\System.Web.Webpages.Razor.xml
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\System.Web.Helpers.xml
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\System.Web.Mvc.xml
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\zh-Hant\System.Web.Razor.resources.dll
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\zh-Hant\System.Web.Webpages.resources.dll
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\zh-Hant\System.Web.Webpages.Deployment.resources.dll
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\zh-Hant\System.Web.Webpages.Razor.resources.dll
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\zh-Hant\System.Web.Helpers.resources.dll
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\bin\zh-Hant\System.Web.Mvc.resources.dll
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\obj\Debug\BookManagement.csprojResolveAssemblyReference.cache
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\obj\Debug\BookManagement.dll
+H:\406262216 劉品萱\夏令營\教材_夏令營\Course5_FrontEnd_Advanced\Workshop\新版\MVC\BookManagement\obj\Debug\BookManagement.pdb

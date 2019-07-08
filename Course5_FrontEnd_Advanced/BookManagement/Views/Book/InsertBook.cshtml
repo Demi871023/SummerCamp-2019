@@ -1,0 +1,182 @@
+﻿
+@{
+	ViewBag.Title = "InsertBook";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>新增圖書</h2>
+
+
+
+<form id="CreateBookForm" class="form-horizontal">
+	<table >
+		<tr>
+			<td style="text-align:right;"><span style="color:red">*</span><label for="add_book_name">書名 </label></td>
+			<td><input id="add_book_name" name="BookName" type="text" required validationMessage="書名必填"  class="form-control"/></td>
+		</tr>
+		<tr>
+			<td style="text-align:right;"><span style="color:red">*</span><label for="add_book_author">作者</label></td>
+			<td><input id="add_book_author" name="BookAuthor" type="text" required validationMessage="作者必填" class="form-control" /></td>
+		</tr>
+		<tr>
+			<td style="text-align:right;"><span style="color:red">*</span><label for="add_book_publisher">出版商</label></td>
+			<td><input id="add_book_publisher" name="BookPublisher" type="text" required validationMessage="出版商必填"  class="form-control"/></td>
+		</tr>
+		<tr>
+			<td style="text-align:right;"><span style="color:red">*</span><label for="add_book_introduction">內容簡介</label></td>
+			<td><textarea id="add_book_introduction" name="BookIntorduction" required validationMessage="內容簡介必填" class="form-control"></textarea></td>
+		</tr>
+		<tr>
+			<td style="text-align:right;"><span style="color:red">*</span><label for="add_book_buy_date">購買日期</label></td>
+			<td><input id="add_book_buy_date" name="BookBuyDate" type="text" required validationMessage="購買日期必填" class="form-control"/></td>
+		</tr>
+		<tr>
+			<td style="text-align:right;"><span style="color:red">*</span><label for="add_book_class_name">圖書類別</label></td>
+			<td><select id="add_book_class_name" nae="BookClassName" required validationMessage="圖書類別必選擇" class="form-control"></select></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>
+				<button id="back" class="btn btn-default" type="button" onclick="location.href = '/Book/Index'">返回</button>
+				<button id="save" class="btn btn-success" type="button">存檔</button>
+			</td>
+		</tr>
+	</table>
+</form>
+
+<style>
+	span.k-widget.k-tooltip-validation {
+		display: inline-block;
+		width: 160px;
+		text-align: left;
+		border: 0;
+		padding: 0;
+		margin: 0;
+		background: none;
+		box-shadow: none;
+		color: red;
+	}
+</style>
+
+<script>
+	var validator = $("#CreateBookForm").kendoValidator().data("kendoValidator");
+	var status = $(".status");
+
+	$(document).ready(function () {
+		$("#add_book_buy_date").kendoDatePicker({
+			value: new Date(),
+			format: "yyyy/MM/dd",
+			dateInput: true
+		});
+
+		$("#add_book_class_name").kendoDropDownList({
+			optionLabel: "請選擇",
+			dataTextField: "Text",
+			dataValueField: "Value",
+			dataSource: {
+				transport: {
+					read: {
+						url: "/Book/GetBookClassDropDownListData",
+						type: "post",
+						dataType: "json"
+					}
+				}
+			},
+			index: 0
+		});
+	});
+
+	$("#save").click(function () {
+		if (validator.validate()) {
+			if (confirm("確定新增此書?")) {
+				$.ajax({
+					url: "/Book/AddBook",
+					type: "post",
+					dataType: "json",
+					data: {
+						"BookName": $("#add_book_name").val(),
+						"BookAuthor": $("#add_book_author").val(),
+						"BookPublisher": $("#add_book_publisher").val(),
+						"BookNote": $("#add_book_introduction").val(),
+						"BookBoughtDate": $("#add_book_buy_date").val(),
+						"BookClassID": $("#add_book_class_name").data("kendoDropDownList").value()
+					}
+
+				}).done(function (data) {
+					alert("新增成功!");
+					location.href = "/Book/Index"
+				});
+			}
+		}
+		else {
+			$(".status").text("有資料未填寫，存檔失敗！")
+				.removeClass("valid")
+				.addClass("invalid");
+		}
+
+	});
+
+</script>
+
+
+<!--
+	<div class="form-horizontal">
+		<div class="form-group">
+			<label for="add_book_name" class="control-label col-md-2">書名</label>
+			<div class="col-md-10">
+				<input id="add_book_name" class="form-control" type="text" />
+			</div>
+		</div>
+	</div>
+
+	<div class="form-horizontal">
+		<div class="form-group">
+			<label for="add_book_author" class="control-label col-md-2">作者</label>
+			<div class="col-md-10">
+				<input id="add_book_author" class="form-control" type="text" />
+			</div>
+		</div>
+	</div>
+
+	<div class="form-horizontal">
+		<div class="form-group">
+			<label for="add_book_publisher" class="control-label col-md-2">出版商</label>
+			<div class="col-md-10">
+				<input id="add_book_publisher" class="form-control" type="text" />
+			</div>
+		</div>
+	</div>
+
+	<div class="form-horizontal">
+		<div class="form-group">
+			<label for="add_book_introduction" class="control-label col-md-2">內容簡介</label>
+			<div class="col-md-10">
+				<textarea id="add_book_introduction" class="form-control"></textarea>
+			</div>
+		</div>
+	</div>
+
+	<div class="form-horizontal">
+		<div class="form-group">
+			<label for="add_book_buy_date" class="control-label col-md-2">購買日期</label>
+			<div class="col-md-10">
+				<select id="add_book_buy_date" class="form-control"></select>
+			</div>
+		</div>
+	</div>
+
+	<div class="form-horizontal">
+		<div class="form-group">
+			<label for="add_book_class_name" class="control-label col-md-2">圖書類別</label>
+			<div class="col-md-10">
+				<select id="add_book_class_name" class="form-control"></select>
+			</div>
+		</div>
+	</div>
+
+	<div class="form-group">
+		<div class="col-md-2"></div>
+		<button id="save" class="btn btn-success" type="button">存檔</button>
+	</div>
+
+	-->

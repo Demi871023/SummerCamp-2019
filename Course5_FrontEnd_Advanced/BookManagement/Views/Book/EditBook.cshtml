@@ -1,0 +1,252 @@
+﻿
+@{
+    ViewBag.Title = "EditBook";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>修改圖書</h2>
+
+<form id="EditBookForm">
+	<table class="table">
+		<tr>
+			<td style="text-align:right;"><span style="color:red">*</span><label for="edit_book_name">書名</label></td>
+			<td><input id="edit_book_name" name="BookName" type="text" required validationMessage="書名必填" /></td>
+		</tr>
+		<tr>
+			<td style="text-align:right;"><span style="color:red">*</span><label for="edit_book_author">作者</label></td>
+			<td><input id="edit_book_author" name="BookAuthor" type="text" required validationMessage="作者必填" /></td>
+		</tr>
+		<tr>
+			<td style="text-align:right;"><span style="color:red">*</span><label for="edit_book_publisher">出版商</label></td>
+			<td><input id="edit_book_publisher" name="BookPublisher" type="text" required validationMessage="出版商必填" /></td>
+		</tr>
+		<tr>
+			<td style="text-align:right;"><span style="color:red">*</span><label for="edit_book_introduction">內容簡介</label></td>
+			<td><textarea id="edit_book_introduction" name="BookIntorduction" required validationMessage="內容簡介必填"></textarea></td>
+		</tr>
+		<tr>
+			<td style="text-align:right;"><span style="color:red">*</span><label for="edit_book_buy_date">購買日期</label></td>
+			<td><input id="edit_book_buy_date" name="BookBuyDate" type="text" required validationMessage="購買日期必填" /></td>
+		</tr>
+		<tr>
+			<td style="text-align:right;"><span style="color:red">*</span><label for="edit_book_class_name">圖書類別</label></td>
+			<td><select id="edit_book_class_name" nae="BookClassName" required validationMessage="圖書類別必選擇"></select></td>
+		</tr>
+		<tr>
+			<td style="text-align:right;"><span style="color:red">*</span><label for="edit_book_status">借閱狀態</label></td>
+			<td><select id="edit_book_status" nae="BookStatus" required validationMessage="借閱狀態必選擇"></select></td>
+		</tr>
+		<tr id="book_keeper_tr">
+			<td style="text-align:right;"><label for="edit_book_keeper">借閱人</label></td>
+			<td><select id="edit_book_keeper" name="BookKeeper" ></select></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>
+				<button id="back" class="btn btn-default" type="button" onclick="location.href = '/Book/Index'">返回</button>
+				<button id="save" class="btn btn-success" type="button">存檔</button>
+				<button id="delete" class="btn btn-danger" type="button">刪除</button>
+			</td>
+		</tr>
+	</table>
+</form>
+
+<input id="hid_book_id" type="hidden" value="@ViewData["bookid"]" />
+
+
+
+<style>
+    span.k-widget.k-tooltip-validation {
+        display: inline-block;
+        width: 160px;
+        text-align: left;
+        border: 0;
+        padding: 0;
+        margin: 0;
+        background: none;
+        box-shadow: none;
+        color: red;
+    }
+</style>
+
+<script>
+    var check;
+    var validator = $("#EditBookForm").kendoValidator().data("kendoValidator");
+	$(document).ready(function () {
+		$("#edit_book_buy_date").kendoDatePicker({
+			value: new Date(),
+			format: "yyyy/MM/dd",
+			dateInput: true
+		});
+
+		$("#edit_book_class_name").kendoDropDownList({
+			optionLabel: "請選擇",
+			dataTextField: "Text",
+			dataValueField: "Value",
+			dataSource: {
+				transport: {
+					read: {
+						url: "/Book/GetBookClassDropDownListData",
+						type: "post",
+						dataType: "json"
+					}
+				}
+			},
+			index: 0
+		});
+
+		$("#edit_book_status").kendoDropDownList({
+			optionLabel: "請選擇",
+			dataTextField: "Text",
+			dataValueField: "Value",
+			dataSource: {
+				transport: {
+					read: {
+						url: "/Book/GetBookStatusDropDownListData",
+						type: "post",
+						dataType: "json"
+					}
+				}
+            },
+            change: onchange,
+			index: 0
+		});
+
+		$("#edit_book_keeper").kendoDropDownList({
+			optionLabel: "請選擇",
+			dataTextField: "Text",
+			dataValueField: "Value",
+			dataSource: {
+				transport: {
+					read: {
+						url: "/Book/GetLendUserDropDownListData",
+						type: "post",
+						dataType: "json"
+					}
+				}
+            },
+			index: 0
+		});
+		$.ajax({
+            url: "/Book/GetOriginBookData",
+			type: "post",
+			dataType: "json",
+            data: { "bookid": $('#hid_book_id').val() },
+            //回傳的res是array
+            success: function (res) {
+                //console.log(res);
+                $("#edit_book_name").val(res[0].BookName);
+                $("#edit_book_author").val(res[0].BookAuthor);
+                $("#edit_book_publisher").val(res[0].BookPublisher);
+                $("#edit_book_introduction").val(res[0].BookNote);
+                $("#edit_book_buy_date").val(res[0].BookBoughtDate);
+                $('#edit_book_class_name').data('kendoDropDownList').value(res[0].BookClassName);
+                $('#edit_book_status').data('kendoDropDownList').value(res[0].CodeName);
+                $('#edit_book_keeper').data('kendoDropDownList').value(res[0].UserName);
+               
+
+
+
+
+
+
+                var str = $('#edit_book_introduction').val();
+
+
+
+              
+                var regex = /<br\s*[\/]?>/gi;
+                str = str.replace(regex, "\n");
+
+                //temp = temp.replaceAll("<BR>", "\r\n");
+                console.log(str);
+                $('#edit_book_introduction').val(str);
+                console.log(str);
+
+
+
+                check = res[0].CodeName;
+                //A 可以借出，目前沒有借閱人
+                //U 不可借出，不存在借閱人
+
+                if (check == "A" || check == "U" || check == "")
+                {
+                    $('#edit_book_keeper').data('kendoDropDownList').enable(false);
+                }
+                else
+                {
+                    $('#edit_book_keeper').data('kendoDropDownList').enable(true);
+                }
+			}
+		});
+    });
+
+    function onchange() {
+        check = $('#edit_book_status').data('kendoDropDownList').value();
+        if (check == "A" || check == "U" || check == "") {
+            $('#edit_book_keeper').data('kendoDropDownList').value("");
+            $('#edit_book_keeper').data('kendoDropDownList').enable(false);
+        }
+        else {
+            $('#edit_book_keeper').data('kendoDropDownList').enable(true);
+        }
+    }
+
+    
+
+    $("#save").click(function () {
+        
+        if (validator.validate()) {
+            if (confirm("確定修改此書資訊?")) {
+                $.ajax({
+                    url: "/Book/UpdateBook",
+                    type: "post",
+                    dataType: "json",
+                    data: {
+                        "BookID": $('#hid_book_id').val(),
+                        "BookName": $("#edit_book_name").val(),
+                        "BookAuthor": $("#edit_book_author").val(),
+                        "BookPublisher": $("#edit_book_publisher").val(),
+                        "BookNote": $("#edit_book_introduction").val(),
+                        "BookBoughtDate": $("#edit_book_buy_date").val(),
+                        "BookClassName": $("#edit_book_class_name").data("kendoDropDownList").value(),
+                        "CodeName": $('#edit_book_status').data('kendoDropDownList').value(),
+                        "UserName": $('#edit_book_keeper').data('kendoDropDownList').value()
+                    }
+
+                }).done(function (data) {
+                    alert("修改成功!");
+                    location.href = "/Book/Index"
+                });
+            }
+        }
+        else {
+            $(".status").text("有資料未填寫，存檔失敗！")
+                .removeClass("valid")
+                .addClass("invalid");
+        }
+
+    });
+
+    $("#delete").click(function () {
+        if (confirm("確定要刪除這本書?")) {
+            if (check == "B" || check == "C") {
+                alert("該本書借出中無法刪除!");
+            }
+            else {
+                $.ajax({
+                    method: "post",
+                    url: "/Book/DeleteBook",
+                    dataType: "json",
+                    data: { "bookid": $('#hid_book_id').val() }
+                }).done(function (e) {
+                    if (e) {
+                        alert("刪除成功! 返回主頁");
+                        location.href = "/Book/Index";
+                    }
+                });
+            }
+        }
+    });
+
+</script>
